@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+}
+.start-btn, .info-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.start-btn button {
+    font-size: 25px;
+    font-weight: 600px;
+    color: orange;
+    padding: 20px 30px;
+    border: solid orange;
+    border-radius: 10px;
+
+}
+
+.info-box {
+    width: 540px;
+    background: white;
+    border-radius: 10px;
+}
+
+.info-box .info-title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid orange;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.info-box .info-list {
+    
+}
