@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 .start-btn, .info-box{
     position: absolute;
@@ -12,28 +12,61 @@ body {
     font-weight: 600px;
     color: orange;
     padding: 20px 30px;
-    border: solid orange;
-    border-radius: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
 
 }
 
 .info-box {
     width: 540px;
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
 }
 
 .info-box .info-title {
     height: 60px;
-    width: 100%;
-    border-bottom: 3px solid orange;
+    background-color: #F08080;
+    border-bottom: 2px dashed black;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 750;
 }
 
 .info-box .info-list {
-    
+    padding: 15px 35px;
 }
+
+.info-box .info-list .info {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.info-box .info-list .info span {
+    font-weight: 600;
+    color: orange;
+}
+
+.info-box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    border-top: 1px dashed black;
+    background-color: lightskyblue;
+}
+
+.info-box .buttons button {
+   margin: 5px;
+   height: 30px;
+   width: 400px;
+   color: black;
+   border: solid black;
+   background-color: #FFFFF0;
+   border-radius: 5px;
+}
+
