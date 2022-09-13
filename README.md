@@ -7,4 +7,4 @@ Description: During this assignment I created a quiz with a set of rules for tak
 
 ![Screenshot (252)](https://user-images.githubusercontent.com/107810359/189802476-d8929d77-a00f-48dc-b938-3a55cf4ceacf.png)
 
-https://github.com/Jcroa25/Module-4-Web-APIs-Challenge-Code-Quiz
+https://jcroa25.github.io/Module-4-Web-APIs-Challenge-Code-Quiz/
