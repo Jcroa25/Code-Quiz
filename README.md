@@ -1,4 +1,4 @@
-![Screenshot (252)](https://user-images.githubusercontent.com/107810359/189802413-55a52e73-1aab-4614-8395-0d8668febf2a.png)
+
 # Module-4-Web-APIs-Challenge-Code-Quiz
 
 Purpose: The purpose of the this was to create a short quiz about JavaScript.
