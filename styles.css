@@ -122,8 +122,6 @@ body{
 
 .quiz_box header .timer{
     color: black;
-    background: lightgray;
-    border: 1px solid black;
     height: 45px;
     padding: 0 8px;
     display: flex;

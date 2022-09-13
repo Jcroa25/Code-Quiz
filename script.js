@@ -24,10 +24,10 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuetions(0); 
     queCounter(1); 
-    startTimer(15); 
+    startTimer(30); 
 }
 
-let timeValue =  15;
+let timeValue =  30;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -41,7 +41,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); 
     result_box.classList.remove("activeResult");
-    timeValue = 15; 
+    timeValue = 30; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -145,15 +145,15 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){ 
         
-        let scoreTag = '<span>and congrats! , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  
     }
     else if(userScore > 1){
-        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ 
-        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
