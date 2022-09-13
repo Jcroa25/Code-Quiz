@@ -139,7 +139,7 @@ function optionSelected(answer){
 
 //Displaying results
 function showResult(){
-    info_box.classList.remove("activeInfo"); 
+    
     quiz_box.classList.remove("activeQuiz"); 
     result_box.classList.add("activeResult"); 
     const scoreText = result_box.querySelector(".score_text");

@@ -14,19 +14,14 @@ body{
     background: darkgrey;
 }
 
-.start_btn,
-.info_box,
-.quiz_box,
-.result_box{
+.start_btn, .info_box, .quiz_box, .result_box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.info_box.activeInfo,
-.quiz_box.activeQuiz,
-.result_box.activeResult{
+.info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
@@ -38,7 +33,6 @@ body{
     color: black;
     padding: 15px 30px;
     border: solid black;
-    border-radius: 5px;
     background: #fff;
 }
 
@@ -63,7 +57,6 @@ body{
     display: flex;
     align-items: center;
     padding: 0 30px;
-    border-radius: 5px 5px 0 0;
     font-size: 20px;
     font-weight: 600;
 }
@@ -99,7 +92,6 @@ body{
     cursor: pointer;
     border: none;
     outline: none;
-    border-radius: 5px;
     border: 1px solid black;
 }
 
@@ -107,7 +99,6 @@ body{
     width: 550px;
     background: #fff;
     border: solid black;
-    border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
@@ -119,7 +110,6 @@ body{
     height: 70px;
     padding: 0 30px;
     background: #fff;
-    border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,7 +126,6 @@ body{
     border: 1px solid black;
     height: 45px;
     padding: 0 8px;
-    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -154,8 +143,7 @@ body{
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: black
-    border-radius: 5px;
+    color: black;
     line-height: 30px;
     text-align: center;
     user-select: none;
@@ -187,7 +175,6 @@ section .option_list{
 section .option_list .option{
     background: seashell;
     border: 1px solid black;
-    border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
     margin-bottom: 15px;
@@ -255,7 +242,6 @@ footer button{
     border: none;
     outline: none;
     color: #fff;
-    border-radius: 5px;
     background: black;
     border: 1px solid black;
     line-height: 10px;
@@ -325,7 +311,6 @@ footer button.show{
     cursor: pointer;
     border: none;
     outline: none;
-    border-radius: 5px;
     border: 1px solid black;
 }
 
